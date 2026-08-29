@@ -1,0 +1,12 @@
+1. What is the difference between block-level and inline elements? 
+       * Block level element starts in the new line and takes the entire width
+       * Inlineline element continues on the same line and does takes a specific width
+2. What are void elements in HTML? Give examples. 
+        * Element that contains open tag but not doesn't contains closed tags
+        Example:<hr>,<img>,<br>,<input>,<meta>
+3. What are semantic HTML elements?
+        * Gives meaning to the tags
+        Example:<strong>,<p>,<header>,<title>,<main>,<footer>,<head>
+4. What is the difference between semantic and non-semantic elements?
+it should either do a specidic tags or to have a specific behaviour
+
