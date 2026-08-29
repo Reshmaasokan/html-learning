@@ -8,5 +8,9 @@
         * Gives meaning to the tags
         Example:<strong>,<p>,<header>,<title>,<main>,<footer>,<head>
 4. What is the difference between semantic and non-semantic elements?
-it should either do a specidic tags or to have a specific behaviour
+        Semantic tags gives the meaning that can be understand by the browser 
+        Example:<header>,<article>,<title>,<main>
+        Non‑semantic elements are generic containers that don't describe meaning.
+        Examples: <div>, <span>.
+        Presentational tags like <b>, <i>, <u> affect appearance, not structure/meaning.
 
