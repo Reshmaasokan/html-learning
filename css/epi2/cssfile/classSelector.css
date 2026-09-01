@@ -1,0 +1,13 @@
+.txt-clr{
+    color: white;
+    background-color: black;
+}
+
+.txt-bg{
+    color: black;
+    background-color: white;
+}
+
+.txt-font{
+    font-size: 20px
+}

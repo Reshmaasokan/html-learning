@@ -1,0 +1,12 @@
+a[href]{
+    color: blue
+}
+input[type="text"]{
+    background-color:rgb(225, 43, 225);
+}
+select[name]{
+    background-color: rgb(43, 225, 225);
+}
+ul[type]{
+    background-color: rgb(225, 225, 43);
+}
