@@ -1,0 +1,27 @@
+.button1:hover{
+    background-color: yellow;
+}
+
+.button2:focus{
+    background-color: red;
+}
+
+.button3:active{
+    background-color: green;
+}
+
+/*.hello p:first-child{
+    background-color: blue;
+}
+
+.hello p:last-child{
+    background-color: orange;
+}*/
+
+.hello p:nth-child(odd){
+    background-color: purple;
+}
+
+.hello p:nth-child(even){
+    background-color: pink;
+}
