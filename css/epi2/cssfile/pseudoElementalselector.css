@@ -1,24 +1,38 @@
-.pseudo-element>ul{
+.pseudo-element >ul{
    list-style-type : none;
-    counter-reset:section;
+    counter-reset: section;
 }
 
 .pseudo-element >ul >li::before{
     counter-increment:section;
     content: counter(section) ". ";
-     counter-reset:subsection;
+     
 
+}
+
+.pseudo-element >ul >li >ul{
+    list-style-type : none;
+    counter-reset: subsection;
 }
 .pseudo-element >ul >li >ul> li::before{
     counter-increment:subsection;
     content: counter(section) "." counter(subsection) ". ";
-    counter-reset:subsubsection;
+    
+}
+.pseudo-element >ul>li>ul>li>ul{
+    list-style-type : none;
+    counter-reset: subsubsection;
 }
 
 .pseudo-element >ul >li >ul >li >ul> li::before{
     counter-increment:subsubsection;
     content: counter(section) "." counter(subsection) "." counter(subsubsection) ". ";
-    counter-reset :subsubsubsection;
+
+}
+
+.pseudo-element >ul>li>ul>li>ul>li>ul{
+    list-style-type : none;
+    counter-reset: subsubsubsection;
 }
 
 .pseudo-element >ul >li >ul >li >ul >li>ul>li::before{
