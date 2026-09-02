@@ -1,0 +1,19 @@
+.pseudo-element> ul{
+    list-style-type: none;
+    counter-reset: section;
+}
+
+.pseudo-element >ul >li::before{
+    counter-increment: section;
+    content: counter(section) " .";
+}
+
+.pseudo-element >ul>li>ul{
+    list-style-type: none;
+    counter-reset: subsection;    
+}
+
+.pseudo-element >ul>li>ul>li::before{
+    counter-increment: subsection;
+    content: counter(section)"." counter(subsection)" ";
+}
