@@ -1,0 +1,9 @@
+.container{
+    background-image: url('../media/background-theme\ image.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    padding: 25px;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
