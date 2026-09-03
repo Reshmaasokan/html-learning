@@ -1,0 +1,27 @@
+.heading{
+    border-style:solid;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.container{
+    border-style:dotted;
+    margin-top: 45px;
+    
+}
+
+.para1{
+    border-style: solid;
+    margin-right:45px;
+    margin-left:45px;
+    margin-bottom: 35px;
+    padding: 4px;
+}
+
+.para2{
+    border-style: solid;
+    margin-right:45px;
+    margin-left:45px;
+    padding: 32px;
+}
