@@ -1,0 +1,9 @@
+.heading{
+    border-style: dashed;
+    text-align: center;
+}
+
+.container{
+    border-style: dashed;
+    padding: 45px;
+}

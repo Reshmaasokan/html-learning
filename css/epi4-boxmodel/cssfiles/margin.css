@@ -1,0 +1,23 @@
+.heading{
+    border-style:solid;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    border-style:dotted;
+    margin-top: 45px;
+}
+
+.para1{
+    border-style: solid;
+    margin-right:45px;
+    margin-left:45px;
+    margin-bottom: 15px;
+}
+
+.para2{
+    border-style: solid;
+    margin-right:45px;
+    margin-left:45px;
+}
