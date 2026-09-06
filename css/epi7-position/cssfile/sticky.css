@@ -1,0 +1,8 @@
+.top{
+    top:0px;
+    background-color: black;
+    text-align: center;
+    position:sticky;
+    color:white;
+    width:100%
+}

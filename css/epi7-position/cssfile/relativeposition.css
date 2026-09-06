@@ -1,0 +1,9 @@
+h1{
+    position:static;
+    background-color: aqua;
+}
+
+.class{
+    position: relative;
+    top:60px;
+}
