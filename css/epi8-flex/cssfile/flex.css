@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    gap:20px;
+    height: 45px;
+}
