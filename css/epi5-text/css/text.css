@@ -1,0 +1,25 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top{
+    background-color: aquamarine;
+}
+
+.top h1{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: beige;
+}
+.top p{
+    text-align: center;
+    line-height: 10px;
+    letter-spacing: 2px;
+}
+
+.Second >p{
+    text-align: left;
+    /*text-decoration: line-through;*/
+    text-decoration: overline;
+}
