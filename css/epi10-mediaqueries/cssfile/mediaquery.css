@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.cont{
+    background-color: maroon;
+}
+
+.para1{
+    background:aqua;
+    margin-bottom: 10px;;
+}
+
+.para2{
+    background: aqua;
+}
+
+@media((min-width:360px) and (max-width:769px)){
+    .cont{
+        background-color: aquamarine;
+    }
+}
+
+@media((min-width:770px) and (max-width:1200px)){
+    .cont{
+        background-color: black;
+    }
+}

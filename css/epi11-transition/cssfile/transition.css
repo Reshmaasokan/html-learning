@@ -1,0 +1,38 @@
+.box1{
+    border: 2px solid black;
+    margin-left: 25%;
+    width: 25%;
+    height: 25%;
+    background-color: aqua;
+    transition: all 5s ease;
+}
+
+.box1:hover{
+    transform: scale(1,2);
+}
+
+.box2{
+    border: 2px solid black;
+    margin-left: 25%;
+    width: 25%;
+    height: 25%;
+    background-color: aqua;
+    transition: all 5s ease;
+}
+
+.box2:hover{
+    transform: rotate(360deg);
+}
+
+.box3{
+    border: 2px solid black;
+    margin-left: 25%;
+    width: 25%;
+    height: 25%;
+    background-color: aqua;
+    transition: all 5s ease;
+}
+
+.box3:hover{
+    transform: translate(50%);
+}
